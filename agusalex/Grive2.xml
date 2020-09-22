@@ -26,7 +26,7 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/agusalex/grive2Docker/raw/master/docker-drive.png</Icon>
+  <Icon>https://github.com/agusalex/docker-templates/raw/master/agusalex/images/Grive2.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
