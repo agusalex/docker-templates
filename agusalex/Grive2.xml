@@ -69,4 +69,5 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
   <Config Name="CLIENT_ID" Target="ID" Default="" Mode="" Description="Your Client ID obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="SECRET" Target="SECRET" Default="" Mode="" Description="Your Client Secret obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="CODE" Target="CODE" Default="" Mode="" Description="Your client secret obtained from the URL in the description&#13;&#10;Delete me after the setup is completed" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="GRIVE_PARAMS" Target="PARAMS" Default="" Mode="" Description="Passes parameters to grive2. see https://github.com/agusalex/grive2docker#grive-settings " Type="Variable" Display="always" Required="false" Mask="false"></Config>
 </Container>
