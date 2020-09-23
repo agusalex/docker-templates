@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Grive2</Name>
-  <Repository>https://github.com/agusalex/grive2Docker</Repository>
+  <Repository>https://github.com/agusalex/grive2docker</Repository>
   <Registry>https://hub.docker.com/r/agusalex/grive2</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/agusalex/grive2Docker</Project>
+  <Project>https://github.com/agusalex/grive2docker</Project>
   <Overview>Backup your files to Google Drive using Grive2 client in a docker container
     
 Before you Start this Container:&#xD;
