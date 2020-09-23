@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Grive2</Name>
-  <Repository>agusalex/grive2</Repository>
+  <Repository>https://github.com/agusalex/grive2Docker</Repository>
   <Registry>https://hub.docker.com/r/agusalex/grive2</Registry>
   <Network>bridge</Network>
   <MyIP/>
