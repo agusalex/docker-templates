@@ -24,6 +24,8 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
 9- Run it the first time and let it start Sync&#xD;
 10- Once it starts you can now remove the CODE variable from this template to be safe&#xD;
 11- Enjoy Grive2 on Unraid!!&#xD;
+12- Set GRIVE_PARAMS to for example -s my_drive_folder to sync that specific folder on Google Drive&#xD;
+13- Leaving this field blank will sync your whole Google Drive.&#xD;
 </Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>]</WebUI>
@@ -69,5 +71,5 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
   <Config Name="CLIENT_ID" Target="ID" Default="" Mode="" Description="Your Client ID obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="SECRET" Target="SECRET" Default="" Mode="" Description="Your Client Secret obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"></Config>
   <Config Name="CODE" Target="CODE" Default="" Mode="" Description="Your client secret obtained from the URL in the description&#13;&#10;Delete me after the setup is completed" Type="Variable" Display="always" Required="false" Mask="true"></Config>
-  <Config Name="GRIVE_PARAMS" Target="PARAMS" Default="" Mode="" Description="Passes parameters to grive2. see https://github.com/agusalex/grive2docker#grive-settings " Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="GRIVE_PARAMS" Target="PARAMS" Default="" Mode="" Description="Passes parameters to grive2. For example -s my_drive_folder. See https://github.com/agusalex/grive2docker#grive-settings " Type="Variable" Display="always" Required="false" Mask="false"></Config>
 </Container>
