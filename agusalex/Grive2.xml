@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/97185-support-agusalex-grive2/</Support>
   <Project>https://github.com/agusalex/grive2docker</Project>
   <Overview>Backup your files to Google Drive using Grive2 client in a docker container
     
