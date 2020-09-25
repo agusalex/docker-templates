@@ -28,7 +28,7 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
 13- Leaving this field blank will sync your whole Google Drive.&#xD;
 </Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
-  <WebUI>]</WebUI>
+  <WebUI></WebUI>
   <TemplateURL/>
   <Icon>https://github.com/agusalex/docker-templates/raw/master/agusalex/images/Grive2.png</Icon>
   <ExtraParams/>
