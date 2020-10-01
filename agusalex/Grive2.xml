@@ -14,7 +14,7 @@
 -&#xD;
 Before you Start this Container:&#xD;
 1 - Go to https://github.com/sabeechen/hassio-google-drive-backup/blob/master/LOCAL_AUTH.md and follow the steps&#xD;
-2- Got to this URL and append your CLIENT_ID&#xD;
+2-  Go to this URL and append your CLIENT_ID&#xD;
 https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&amp;amp;redirect_uri=urn:ietf:wg:oauth:2.0:oob&amp;amp;response_type=code&amp;amp;client_id= FILL_HERE_YOUR_CLIENT_ID&#xD;
 3- Give permission to the app and copy the CODE provided&#xD;
 4- Fill in this template with CLIENT_ID, SECRET and CODE&#xD;
@@ -89,7 +89,7 @@ https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com
   <Config Name="UNRAID_FOLDER" Target="/drive" Default="" Mode="rw" Description="Path to the unraid folder in which to sync the files, it also will contain .grive config file" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="CLIENT_ID" Target="ID" Default="" Mode="" Description="Your Client ID obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="SECRET" Target="SECRET" Default="" Mode="" Description="Your Client Secret obtained by doing the procedure in the description" Type="Variable" Display="always" Required="false" Mask="true"/>
-  <Config Name="CODE" Target="CODE" Default="" Mode="" Description="Your client secret obtained from the URL in the description&#13;&#10;Delete me after the setup is completed" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="CODE" Target="CODE" Default="" Mode="" Description="Your client secret obtained from the URL in the description&#13;&#10;Delete me after the setup is complete" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="GRIVE_PARAMS" Target="PARAMS" Default="" Mode="" Description="Passes parameters to grive2. For example -s my_drive_folder. See https://github.com/agusalex/grive2docker#grive-settings " Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="SLEEP" Target="SLEEP" Default="" Mode="" Description="Amount of time to sleep between runs. In order to minimize CPU usage set this to a lower value. &#13;&#10;Default is 1 second." Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
