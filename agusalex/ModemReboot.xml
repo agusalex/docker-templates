@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ModemReboot</Name>
+  <Repository>agusalex/modem_reboot</Repository>
+  <Registry>https://hub.docker.com/repository/docker/agusalex/modem_reboot</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Puppeteer container for rebooting Modems on a schedule&#xD;
+The specific navigation for your modem will vary,&#xD;
+This is more of an example and isn't guaranteed to work for your particular modem.&#xD;
+Feel free to make a PR or add an issue here https://github.com/agusalex/modemReboot/issues to add your own modem's script&#xD;
+If no CRON Env var is passed it will reboot upon first run and then quit</Overview>
+  <Category/>
+  <WebUI>https://github.com/agusalex/modemReboot</WebUI>
+  <TemplateURL/>
+  <Icon>https://icon-library.net/images/reboot-icon-button/reboot-icon-button-15.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1602091935</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Puppeteer container for rebooting Modems on a schedule&#xD;
+The specific navigation for your modem will vary,&#xD;
+This is more of an example and isn't guaranteed to work for your particular modem.&#xD;
+Feel free to make a PR or add an issue here https://github.com/agusalex/modemReboot/issues to add your own modem's script&#xD;
+If no CRON Env var is passed it will reboot upon first run and then quit</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>URL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>USER</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>PASS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>CRON</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="URL" Target="URL" Default="" Mode="" Description="Container Variable: URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="USER" Target="USER" Default="" Mode="" Description="Container Variable: USER" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PASS" Target="PASS" Default="" Mode="" Description="Container Variable: PASS" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="CRON" Target="CRON" Default="" Mode="" Description="Container Variable: CRON" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
