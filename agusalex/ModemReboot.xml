@@ -16,7 +16,7 @@ Check available scripts here: https://github.com/agusalex/modemReboot/&#xD;
 Add your scripts to the RebootModem folder and then set that myscripts/script.js in your SCRIPT env var&#xD;
 Feel free to make a PR or add an issue here https://github.com/agusalex/modemReboot/issues to add your own modem's script&#xD;
 If no CRON Env var is passed it will reboot upon first run and then quit</Overview>
-  <Category/>
+  <Category>Network:Other Productivity: Tools:</Category>
   <WebUI>https://github.com/agusalex/modemReboot</WebUI>
   <TemplateURL/>
   <Icon>https://icon-library.net/images/reboot-icon-button/reboot-icon-button-15.jpg</Icon>
