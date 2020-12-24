@@ -2,13 +2,13 @@
 <Container version="2">
   <Name>Notarius</Name>
   <Repository>agusalex/notarius:latest</Repository>
-  <Registry>https://hub.docker.com/r/agusalex/notarius</Registry>
+  <Registry>https://hub.docker.com/r/agusalex/Notarius</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/agusalex/Notarius/issues</Support>
+  <Project>https://github.com/agusalex/Notarius</Project>
   <Overview/>
   <Category/>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
@@ -16,7 +16,6 @@
   <Icon>https://github.com/agusalex/docker-templates/raw/master/agusalex/images/Notarius.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset>6,7</CPUset>
   <DateInstalled>1600702747</DateInstalled>
   <DonateText/>
   <DonateLink/>
