@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/agusalex/docker-templates/master/agusalex/images/avatar.jpg</Icon>
+  <Profile>
+   Creating Unraid Apps for fun
+  </Profile>
+  <DonateLink>https://www.paypal.me/AgustinAlexander</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+</Maintainer>
