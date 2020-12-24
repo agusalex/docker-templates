@@ -63,7 +63,7 @@ Go to https://github.com/agusalex/grive2Docker/wiki/Setup and follow the setup g
     </Variable>
     <Variable>
       <Value/>
-      <Name>SLEEP</Name>
+      <Name>CRON</Name>
       <Mode/>
     </Variable>
   </Environment>
