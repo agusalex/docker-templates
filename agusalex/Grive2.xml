@@ -15,7 +15,7 @@
 Before you Start this Container:&#xD;
 Go to https://github.com/agusalex/grive2Docker/wiki/Setup and follow the setup guide</Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
-  <WebUI>]</WebUI>
+  <WebUI></WebUI>
   <TemplateURL/>
   <Icon>https://github.com/agusalex/docker-templates/raw/master/agusalex/images/Grive2.png</Icon>
   <ExtraParams/>
